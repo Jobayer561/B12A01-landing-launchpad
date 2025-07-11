@@ -356,7 +356,7 @@ textarea[placeholder] {
   width: 497px;
   height: 62px;
   border-radius: 10px;
-  font-size: 16;
+  font-size: 16px;
   font-weight: 700px;
   border: none;
   margin-top: 10px;
@@ -365,3 +365,45 @@ textarea[placeholder] {
   background-color: #3c38cc; /* slightly darker shade on hover */
   transform: scale(1.02); /* subtle scale up */
 }
+/* footer */
+footer {
+  background-color: white;
+  height: 428px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fitems{
+    align-items: center;
+    width: 531px;
+    padding-top: 0px;
+    text-align: center;
+
+}
+.fhead{
+    color: #4e47ff;
+    font-weight: 700px;
+    font-size: 100px;
+    width: 291px;
+   height: 121px;
+   margin: 0 auto; 
+  padding: 0;
+}
+.fp{
+    color:#757575;
+    margin: 0;
+    padding:8px 0px 20px 0px;
+    font-size: 16px;
+}
+.fl{
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+.fl a {
+    color: #757575;
+  text-decoration: none;
+  font-size: 16px;
+  
+}
+
