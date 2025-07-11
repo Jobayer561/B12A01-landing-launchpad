@@ -19,8 +19,17 @@ body {
 .primary-color {
   color: #4e47ff;
 }
+/* header */
+header {
+  background-image: url("/Assets/Hero-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1440%;
+  height: 698px;
+  margin: 0 auto;
+}
 /* nav style */
-
 .logo-color {
   color: #4e47ff;
   font-weight: 900;
@@ -34,7 +43,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 50px 150px 0px 150px;
-  gap: 909;
   margin: 0 auto;
 }
 .signup-button {
@@ -47,4 +55,69 @@ nav {
   cursor: pointer;
   border: none;
   border-radius: 10px;
+}
+/* section  */
+.section {
+  align-items: center;
+  margin: 0 auto;
+  width: 905px;
+  height: 237px;
+
+  text-align: center;
+}
+.h3 {
+  color: #252432;
+  font-weight: 700;
+  text-align: center;
+  font-size: 65px;
+  width: 905px;
+}
+.button {
+  color: white;
+  width: 174px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #4e47ff;
+  border: none;
+  border-radius: 10px;
+  margin-top: 0;
+}
+
+/* main section */
+.section1 {
+  max-width: 1140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 116px auto;
+  gap: 220px;
+}
+.titlesection {
+  color: #252432;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.psection {
+  margin: 23px 0;
+  color: #252432;
+  opacity: 50%;
+  font-size: 24px;
+  font-weight: 400;
+  width: 517px;
+}
+.btnsection {
+  color: white;
+  background-color: #4e47ff;
+  width: 229px;
+  height: 48px;
+  border-radius: 10px;
+  font: bold;
+  font-size: 16px;
+}
+.imgsection {
+  width: 403px;
+  border-radius: 48px;
+  height: 328px;
 }
