@@ -115,9 +115,53 @@ nav {
   border-radius: 10px;
   font: bold;
   font-size: 16px;
+  border: none;
 }
 .imgsection {
   width: 403px;
   border-radius: 48px;
   height: 328px;
+}
+
+/* productive user*/
+.section2 {
+  margin: 0 auto;
+  max-width: 1140px;
+  height: 306px;
+  border-radius: 24px;
+  background-color: #4e47ff1a;
+  text-align: center;
+}
+.productivediv {
+  width: 856px;
+  height: 206px;
+  margin: 0 auto;
+  padding: 50px 142px;
+}
+.producttitle {
+  color: #252432;
+  font-size: 38px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0 0 40px 0;
+}
+.productivecontent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 158px;
+  text-align: center;
+}
+.productivetitle {
+  color: #4e47ff;
+  font-size: 80px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+.productivedescription {
+  color: #252432;
+  opacity: 50%;
+  font-size: 20px;
+  font-weight: 400;
 }
