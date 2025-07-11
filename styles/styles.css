@@ -185,7 +185,7 @@ nav {
   justify-content: center;
 }
 .feedback-card {
-  background-color: #f5f5f580;
+  background-color: white;
   width: 366.67px;
   padding: 24px;
   border-radius: 14px;
@@ -228,13 +228,55 @@ nav {
 .feedbackpic-title {
   font-size: 16px;
   font-weight: 600;
-  color: rgba(117, 117, 117, 1);
+  color: #757575;
   margin: 0;
   margin-bottom: 2px;
 }
 .feedbackpic-description {
-  color: rgba(179, 179, 179, 1);
+  color: #b3b3b3;
   font-size: 16px;
   font-weight: 400;
   margin: 0;
+}
+/* focus better part */
+.fb {
+  max-width: 1140px;
+  background-color: white;
+  height: 696.77px;
+  padding: 71px 150px;
+  border-radius: 14px;
+  text-align: center;
+  margin: 0 auto;
+}
+.fbh1 {
+  color: #1e1e1e;
+  font-size: 50px;
+  font-weight: 750px;
+  margin: 0;
+}
+.fbp {
+  font-size: 16px;
+  color: #000000;
+  opacity: 50%;
+  margin: 25px auto;
+}
+.fbbutton {
+  color: white;
+  background-color: #4e47ff;
+  width: 195px;
+  height: 48px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.fbimg {
+  width: 840;
+  height: 364.77;
+  align-items: center;
+  margin: 0 auto;
+}
+.fbimg img {
+  border-radius: 48px;
 }
