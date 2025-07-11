@@ -1,0 +1,50 @@
+.Inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+body {
+  background-color: #f5f8ff;
+  margin: 0;
+  padding: 0;
+}
+.primary-color {
+  color: #4e47ff;
+}
+/* nav style */
+
+.logo-color {
+  color: #4e47ff;
+  font-weight: 900;
+  font-size: 34px;
+  width: 99px;
+  height: 51px;
+}
+nav {
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 150px 0px 150px;
+  gap: 909;
+  margin: 0 auto;
+}
+.signup-button {
+  width: 132px;
+  height: 48px;
+  color: white;
+  background-color: #4e47ff;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
